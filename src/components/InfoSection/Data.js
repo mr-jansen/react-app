@@ -1,0 +1,51 @@
+export const homeObjOne = {
+  id: "about",
+  lightBg: false,
+  lighText: true,
+  lightTextDesc: true,
+  topLine: "F1NDX",
+  headline: "Ganhe prêmios com base em sua colocação",
+  description:
+    "Acesse já! A melhor plataforma de competições online do Brasil.",
+  buttonLabel: "Começar",
+  imgStart: false,
+  img: require("../../images/svg-2.svg").default,
+  alt: "coding",
+  dark: true,
+  primary: true,
+  darkText: false,
+};
+export const homeObjTwo = {
+  id: "discover",
+  lightBg: true,
+  lighText: false,
+  lightTextDesc: false,
+  topLine: "F1NDX ",
+  headline: "Receba seu pagamento de forma fácil, rápida e segura! ",
+  description:
+    "Deposite hoje mesmo e comece a jogar! Sorteios exclusivos para os jogadores mais ativos!",
+  buttonLabel: "Depositar agora",
+  imgStart: true,
+  img: require("../../images/svg-4.svg").default,
+  alt: "money",
+  dark: false,
+  primary: false,
+  darkText: true,
+};
+export const homeObjThree = {
+  id: "signup",
+  lightBg: true,
+  lighText: false,
+  lightTextDesc: true,
+  topLine: "F1NDX",
+  headline: "Chame seus amigos, para competirem juntos!",
+  description:
+    "Acesse a plataforma e jogue em formatos de Duos, Trios e Esquadrões!.  ",
+  buttonLabel: "Jogar",
+  imgStart: true,
+  img: require("../../images/svg8.svg").default,
+  alt: "coding",
+  dark: false,
+  primary: false,
+  darkText: true,
+};
